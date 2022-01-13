@@ -1,4 +1,4 @@
-import { ArrowDropDown, Notifications, Search } from "@material-ui/icons"
+import { AccountBox, ArrowDropDown, Notifications, Search } from "@material-ui/icons"
 import { useState } from "react"
 import "./navbar.scss"
 
@@ -27,7 +27,7 @@ const Navbar = () => {
                     <Search className="icon"/>
                     <span>USER</span>
                     <Notifications className="icon"/>
-                    <img src="https://img.search.brave.com/b__Lnnf9Na4Uc8PgxEPoB9yFlBgJk42doyjl-D46TpM/fit/980/982/ce/1/aHR0cDovL2Nkbi5v/bmxpbmV3ZWJmb250/cy5jb20vc3ZnL2lt/Z181NjkyMDUucG5n" alt="" />
+                    <AccountBox className="icon"/>
                     <div className="profile">
                         <ArrowDropDown className="icon"/>
                         <div className="options">
