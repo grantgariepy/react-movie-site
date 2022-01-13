@@ -24,6 +24,7 @@
             img{
                 height: 25px;
                 margin-right: 40px;
+                cursor: pointer;
             }    
 
             span{
@@ -47,6 +48,7 @@
                 border-radius: 5px;
                 object-fit: cover;
                 cursor: pointer;
+                filter: invert(100%);
             }
 
             .profile{

@@ -15,19 +15,19 @@ const Navbar = () => {
         <div className={isScrolled ? "navbar scrolled" : "navbar"}>
             <div className="container"> 
                 <div className="left">
-                    <img src="https://img.search.brave.com/GAWh4mkxAqNHCWfLj8fk1bdTbAlBGEfMVERXQuNzJpg/fit/1200/562/ce/1/aHR0cHM6Ly93d3cu/cGluY2xpcGFydC5j/b20vcGljZGlyL2Jp/Zy8yLTIzMjM2X3Ry/YW5zcGFyZW50LW5l/dGZsaXgtbG9nby0y/MDE4LWNsaXBhcnQu/cG5n"
+                    <img src="https://i.imgur.com/BvqQtc6.png"
                          alt="" />
-                    <span>Homepage</span>
-                    <span>TV Shows</span>
                     <span>Movies</span>
+                    <span>TV Shows</span>
                     <span>New</span>
                     <span>Popular</span>
+                    <span>Top 250</span>
                 </div>
                 <div className="right">
                     <Search className="icon"/>
-                    <span>KID</span>
+                    <span>USER</span>
                     <Notifications className="icon"/>
-                    <img src="https://i.imgur.com/0HVlygL.jpg" alt="" />
+                    <img src="https://img.search.brave.com/b__Lnnf9Na4Uc8PgxEPoB9yFlBgJk42doyjl-D46TpM/fit/980/982/ce/1/aHR0cDovL2Nkbi5v/bmxpbmV3ZWJmb250/cy5jb20vc3ZnL2lt/Z181NjkyMDUucG5n" alt="" />
                     <div className="profile">
                         <ArrowDropDown className="icon"/>
                         <div className="options">
