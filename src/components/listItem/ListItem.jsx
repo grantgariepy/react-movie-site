@@ -22,7 +22,7 @@ export default function ListItem({index}) {
                     <video src={trailer} autoplay={true} loop />
                     <div className="itemInfo">
                         <div className="icons">
-                            <InfoOutlined/>
+                            <InfoOutlined className="icon"/>
                         </div>
                         <div className="itemInfoTop">
                             <span>1 hour 14 mins</span>
