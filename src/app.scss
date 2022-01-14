@@ -1,3 +1,10 @@
 :root{
     --main-color: #0b0b0b
+
 }
+::selection {
+    background: #cddc57; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: #cddc57; /* Gecko Browsers */
+  }
